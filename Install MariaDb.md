@@ -23,6 +23,10 @@ docker run --name mariadb -d -p 포트번호:포트번호 -e MYSQL_ROOT_PASSWORD
 </code>
 </pre>
 
+## Start Mariadb
+1. docker exec -it mariadb /bin/bash
+2. mysql -u root -p : root 계정으로 접속
+3. status : mariadb 상태 확인
 
 
 
